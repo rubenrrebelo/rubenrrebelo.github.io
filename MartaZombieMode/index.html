@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Marta Zombie Mode</title>
+    <style>
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+</style>
+</head>
+<body>
+    
+<audio id="myAudio">
+  <source src="Marta.mp3" type="audio/mp3">
+  Your browser does not support the audio element.
+</audio>
+    
+<br>
+<br>
+    <br>
+<br>
+    <br>
+<br>
+    <br>
+<br>
+<button class=center type="button" onclick="playAudio()">Zombie Mode!</button>
+
+    
+    <script>
+var x = document.getElementById("myAudio"); 
+
+function playAudio() { 
+  x.play(); 
+} 
+</script>
+</body>
+</html>
